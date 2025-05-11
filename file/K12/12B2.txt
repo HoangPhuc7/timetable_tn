@@ -1,6 +1,6 @@
-Văn-Oanh V
-Toán-Trầm
-Toán-Trầm
+Văn
+Toán
+Toán
 
 
 
@@ -14,13 +14,13 @@ Toán-Trầm
 
 
 
-Văn-Oanh V
-Văn-Oanh V
-Toán-Trầm
-Toán-Trầm
-Toán-Trầm
-Văn-Oanh V
-Văn-Oanh V
+Văn
+Văn
+Toán
+Toán
+Toán
+Văn
+Văn
 
 
 
@@ -38,9 +38,9 @@ Văn-Oanh V
 
 
 
-Toán-Trầm
-Toán-Trầm
-SHL-Hoa
+Toán
+Toán
+SHL
 
 
 
@@ -48,9 +48,9 @@ SHL-Hoa
 
 
 
-Văn-Oanh V
-Văn-Oanh V
-Toán-Trầm
+Văn
+Văn
+Toán
 
 
 

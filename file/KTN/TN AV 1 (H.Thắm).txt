@@ -1,8 +1,8 @@
 P4	
 
 
-H.T
-H.T
+AV
+AV
 
 
 
@@ -24,8 +24,8 @@ H.T
 
 
 P1
-H.T
-H.T
+AV
+AV
 
 
 
@@ -34,15 +34,15 @@ H.T
 
 
 
-H.T
-H.T
+AV
+AV
 
 P3
 
 
 
-H.T
-H.T
+AV
+AV
 
 
 

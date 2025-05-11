@@ -1,64 +1,129 @@
+
 import streamlit as st
 import pandas as pd
-import os
 
-
-classes = ["Chọn lớp"]
-for _, _, files in os.walk("./file"):
-    for file in files:
-        if file.endswith(".txt"):
-            file_name = file.replace(".txt", "")
-            classes.append(file_name)
-
+classes = ['Chọn', '10A1', '10A2', '10A3', '10A4', '10A5', '10A6', '10B1', '10B2', '10B3', '10B4', '11A1', '11A2', '11A3', '11A4', '11A5', '11B1', '11B2', '11B3', '12A1', '12A2', '12A3', '12A4', '12B1', '12B2', '12B3', '12B4', 'TN AV 1 (H.Thắm)', 'TN AV 2 (Cẩm)', 'TN AV 3 (P.Thắm)', 'TN HH 1 (B.Hạnh)', 'TN HH 2 (Thu H)', 'TN HH 3 (N.Hạnh)', 'TN HH 4 (Cúc H)', 'TN KTPL (Trong)', 'TN LS 1 (Hiểu)', 'TN LS 2 (Hoa)', 'TN LS 3 (Trang)', 'TN SH 1 (Anh)', 'TN SH 2 (Điền)', 'TN VL 1 (Hiếu)', 'TN VL 2 (Định)', 'TN VL 3 (Kha)', 'TN ĐL 1 (Định Đ)', 'TN ĐL 2 (Thu Đ)', 'TN ĐL 3 (Định Đ)', 'TN ĐL 4 (Thu Đ)']
+TN = ['Chọn', 'TN AV 1 (H.Thắm)', 'TN AV 2 (Cẩm)', 'TN AV 3 (P.Thắm)', 'TN HH 1 (B.Hạnh)', 'TN HH 2 (Thu H)', 'TN HH 3 (N.Hạnh)', 'TN HH 4 (Cúc H)', 'TN KTPL (Trong)', 'TN LS 1 (Hiểu)', 'TN LS 2 (Hoa)', 'TN LS 3 (Trang)', 'TN SH 1 (Anh)', 'TN SH 2 (Điền)', 'TN VL 1 (Hiếu)', 'TN VL 2 (Định)', 'TN VL 3 (Kha)', 'TN ĐL 1 (Định Đ)', 'TN ĐL 2 (Thu Đ)', 'TN ĐL 3 (Định Đ)', 'TN ĐL 4 (Thu Đ)']
 
 days = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7']
 periods = ['S1', 'S2', 'S3', 'S4', 'S5',
-           'C1', 'C2', 'C3', 'C4', 'C5']
+		   'C1', 'C2', 'C3', 'C4', 'C5']
 
-def read_timetable(filename):
-    if not os.path.exists(filename):
-        st.error("Không có kết quả")
-        return None
 
-    with open(filename, 'r', encoding='utf-8') as f:
-        lines = [line.strip() for line in f.readlines()]
+def get_data(file_name):
+	with open(file_name, 'r', encoding='utf-8') as f:
+		lines = [line.strip() for line in f.readlines()]
+	return lines
 
-    
-    if len(lines) > 60:
-        st.error("Lỗi dòng")
-        return None
-    while len(lines) < 60:
-        lines.append("")
 
-    
-    timetable = []
-    for i in range(6):
-        day_schedule = lines[i*10:(i+1)*10]
-        timetable.append(day_schedule)
 
-    return timetable
+def combine_files(class_file, TN_1, TN_2):
+	with open(class_file, 'r', encoding='utf-8') as f:
+		class_lines = [line.strip() for line in f.readlines()]
+	
+	with open(TN_1, 'r', encoding='utf-8') as f:
+		TN_1_lines = [line.strip() for line in f.readlines()]
+	
+	with open(TN_2, 'r', encoding='utf-8') as f:
+		TN_2_lines = [line.strip() for line in f.readlines()]
+	
+	while len(class_lines) < 60:
+		class_lines.append("")
+	
+	while len(TN_1_lines) < 60:
+		TN_1_lines.append("")
+	
+	while len(TN_2_lines) < 60:
+		TN_2_lines.append("")
+	
+	rooms = ["P1", "P2", "P3", "P4", "P5", "P6",
+		     "P7", "P8", "P9", "P10", "P11", "P12",
+			 "P13", "P14", "P15", "P16", "P17", "P18",
+			 "P19", "P20", "P21", "P22", "P23", "P24",
+			 "PBM TO", "PTIN", "PĐHS"]
+
+	for i in range(60):
+		if class_lines[i] in rooms:
+			class_lines[i] = ""
+		if TN_1_lines[i] in rooms:
+			TN_1_lines[i] = ""
+		if TN_2_lines[i] in rooms:
+			TN_2_lines[i] = ""
+		
+		if class_lines[i] == "":
+			if TN_1_lines[i] != "":
+				class_lines[i] = TN_1_lines[i]
+			elif TN_2_lines[i] != "":
+				class_lines[i] = TN_2_lines[i]
+	
+	return class_lines
+
+
+
+def read_timetable(lines):
+	if len(lines) > 60:
+		st.error("Lỗi dòng")
+		return None
+
+	while len(lines) < 60:
+		lines.append("")
+
+	timetable = []
+	for i in range(6):
+		day_schedule = lines[i*10:(i+1)*10]
+		timetable.append(day_schedule)
+
+	return timetable
+
 
 
 def display_timetable(timetable):
-    table_data = {
-        'Tiết': periods
-    }
+	table_data = {
+		"": periods
+	}
 
-    for i, day in enumerate(days):
-        table_data[day] = timetable[i]
+	for i, day in enumerate(days):
+		table_data[day] = timetable[i]
 
-    df = pd.DataFrame(table_data)
-    st.table(df)
+	df = pd.DataFrame(table_data)
+	st.dataframe(df)
 
 
-selected_class = st.selectbox("Chọn lớp / Môn ôn TN:", classes)
+col1, col2, col3 = st.columns(3)
 
-if selected_class != "Chọn lớp":
-    filename = f"{selected_class}.txt"
-    file_path = f"./file/K{selected_class[:2]}/{selected_class}.txt"
-    timetable = read_timetable(file_path)
+with col1:
+    selected_class_basic = st.selectbox("Lớp / Ôn TN", classes, key="basic_class")
 
-    if timetable:
-        st.subheader(f"{selected_class}")
-        display_timetable(timetable)
+with col2:
+    selected_class_TN_1 = st.selectbox("Môn TN 1", TN, key="tn1")
 
+with col3:
+    selected_class_TN_2 = st.selectbox("Môn TN 2", TN, key="tn2")
+
+
+file_path_class_basic = f"./file/K{selected_class_basic[:2]}/{selected_class_basic}.txt"
+if st.button("Lấy/Gộp TKB", key="final_tkb"):
+	if selected_class_basic != "Chọn":
+		if selected_class_TN_1 == "Chọn" and selected_class_TN_2 == "Chọn":
+			lines_timetable = get_data(file_path_class_basic)
+			timetable = read_timetable(lines_timetable)
+			if timetable:
+				st.subheader(f"{selected_class_basic}")
+				display_timetable(timetable)
+		
+		else:
+			if selected_class_basic[:2] != "12":
+				st.warning("Chỉ có lớp 12 mới có môn thi tốt nghiệp!.")
+			else:
+				if (selected_class_TN_1 == "Chọn" and selected_class_TN_2 != "Chọn") or (selected_class_TN_1 != "Chọn" and selected_class_TN_2 == "Chọn"):
+					st.warning("Vui lòng chọn đầy đủ 2 môn ôn tốt nghiệp.")
+				else:
+					file_path_class_TN_1 = f"./file/K{selected_class_TN_2[:2]}/{selected_class_TN_1}.txt"
+					file_path_class_TN_2 = f"./file/K{selected_class_TN_2[:2]}/{selected_class_TN_2}.txt"
+					lines_timetable = combine_files(file_path_class_basic, file_path_class_TN_1, file_path_class_TN_2)
+					timetable = read_timetable(lines_timetable)
+					if timetable:
+						st.subheader(f"{selected_class_basic} - {selected_class_TN_1} - {selected_class_TN_2}")
+						display_timetable(timetable)
+	else:
+		st.warning("Vui lòng chọn lớp.")

@@ -1,6 +1,6 @@
-Toán-Lực
-Văn-Diệu
-Văn-Diệu
+Toán
+Văn
+Văn
 
 
 
@@ -14,13 +14,13 @@ Văn-Diệu
 
 
 
-Toán-Lực
-Toán-Lực
-Văn-Diệu
-Văn-Diệu
-Toán-Lực
-Toán-Lực
-Văn-Diệu
+Toán
+Toán
+Văn
+Văn
+Toán
+Toán
+Văn
 
 
 
@@ -38,9 +38,9 @@ Văn-Diệu
 
 
 
-Văn-Diệu
-Văn-Diệu
-Toán-Lực
+Văn
+Văn
+Toán
 
 
 
@@ -48,9 +48,9 @@ Toán-Lực
 
 
 
-Toán-Lực
-Toán-Lực
-SHL-Kha
+Toán
+Toán
+SHL
 
 
 

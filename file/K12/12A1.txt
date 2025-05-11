@@ -1,6 +1,6 @@
-Toán-Quang
-Toán-Quang
-Văn-Mai V
+Toán
+Toán
+Văn
 
 
 
@@ -14,13 +14,13 @@ Văn-Mai V
 
 
 
-Toán-Quang
-Toán-Quang
-Văn-Mai V
-Văn-Mai V
-Toán-Quang
-Văn-Mai V
-Văn-Mai V
+Toán
+Toán
+Văn
+Văn
+Toán
+Văn
+Văn
 
 
 
@@ -38,9 +38,9 @@ Văn-Mai V
 
 
 
-Văn-Mai V
-Văn-Mai V
-Toán-Quang
+Văn
+Văn
+Toán
 
 
 
@@ -48,9 +48,9 @@ Toán-Quang
 
 
 
-Toán-Quang
-Toán-Quang
-SHL-Quang
+Toán
+Toán
+SHL
 
 
 

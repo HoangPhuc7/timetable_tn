@@ -1,6 +1,6 @@
-Toán-Việt
-Toán-Việt
-Văn-Huy V
+Toán
+Toán
+Văn
 
 
 
@@ -10,20 +10,16 @@ Văn-Huy V
 
 
 
-Toán-Việt
+Toán
 
 
 
-Văn-Huy V
-Văn-Huy V
-Toán-Việt
-Toán-Việt
-Văn-Huy V
-Văn-Huy V
-
-
-
-
+Văn
+Văn
+Toán
+Toán
+Văn
+Văn
 
 
 
@@ -38,9 +34,13 @@ Văn-Huy V
 
 
 
-Văn-Huy V
-Văn-Huy V
-Toán-Việt
+
+
+
+
+Văn
+Văn
+Toán
 
 
 
@@ -48,9 +48,9 @@ Toán-Việt
 
 
 
-Toán-Việt
-Toán-Việt
-SHL-ĐịnhL
+Toán
+Toán
+SHL
 
 
 

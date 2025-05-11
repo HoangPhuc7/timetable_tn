@@ -1,6 +1,6 @@
-Toán-Duyên
-Toán-Duyên
-Văn-Tới
+Toán
+Toán
+Văn
 
 
 
@@ -14,13 +14,13 @@ Văn-Tới
 
 
 
-Văn-Tới
-Văn-Tới
-Toán-Duyên
-Toán-Duyên
-Toán-Duyên
-Văn-Tới
-Văn-Tới
+Văn
+Văn
+Toán
+Toán
+Toán
+Văn
+Văn
 
 
 
@@ -38,9 +38,9 @@ Văn-Tới
 
 
 
-Toán-Duyên
-Toán-Duyên
-SHL-HiếuL
+Toán
+Toán
+SHL
 
 
 
@@ -48,9 +48,9 @@ SHL-HiếuL
 
 
 
-Văn-Tới
-Văn-Tới
-Toán-Duyên
+Văn
+Văn
+Toán
 
 
 

@@ -1,6 +1,6 @@
-Văn-Nhân
-Văn-Nhân
-Toán-Duyên
+Văn
+Văn
+Toán
 
 
 
@@ -10,20 +10,16 @@ Toán-Duyên
 
 
 
-Toán-Duyên
+Toán
 
 
 
-Toán-Duyên
-Toán-Duyên
-Văn-Nhân
-Văn-Nhân
-Văn-Nhân
-Toán-Duyên
-
-
-
-
+Toán
+Toán
+Văn
+Văn
+Văn
+Toán
 
 
 
@@ -38,9 +34,13 @@ Toán-Duyên
 
 
 
-Văn-Nhân
-Văn-Nhân
-Toán-Duyên
+
+
+
+
+Văn
+Văn
+Toán
 
 
 
@@ -48,9 +48,9 @@ Toán-Duyên
 
 
 
-Toán-Duyên
-Toán-Duyên
-SHL-Thu Đ
+Toán
+Toán
+SHL
 
 
 

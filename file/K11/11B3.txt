@@ -1,48 +1,48 @@
-Chào cờ-Huynh
-Toán-Lệ
-Toán-Lệ
-Văn-Oanh V
-Văn-Oanh V
+Chào cờ
+Toán
+Toán
+Văn
+Văn
 
 
 
 
 
-GDKT-PL-Chân
-GDKT-PL-Chân
-Sinh-Điền
-Văn-Oanh V
-Văn-Oanh V
+GDKT-PL
+GDKT-PL
+Sinh
+Văn
+Văn
 PBM TO
 
 
-TN-HN-Huynh
-TN-HN-Huynh
-CNNN-Anh
-Toán-Lệ
-AV-Biền
-Địa-Bình Đ
-Địa-Bình Đ
+TN-HN
+TN-HN
+CNNN
+Toán
+AV
+Địa
+Địa
 
 
 
 
 
-TD-Vinh
-Sinh-Điền
-Địa-Bình Đ
-Sử-Yến
-Sử-Yến
+TD
+Sinh
+Địa
+Sử
+Sử
 
 
 
 
 
-AV-Biền
-AV-Biền
-CNNN-Anh
-TD-Vinh
-TN-HN-Huynh
+AV
+AV
+CNNN
+TD
+TN-HN
 
 
 

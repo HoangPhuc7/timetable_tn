@@ -1,6 +1,6 @@
-Văn-Quyết`
-Văn-Quyết`
-Toán-Việt
+Văn
+Văn
+Toán
 
 
 
@@ -14,13 +14,13 @@ Toán-Việt
 
 
 
-Toán-Việt
-Toán-Việt
-Văn-Quyết`
-Văn-Quyết`
-Toán-Việt
-Toán-Việt
-Văn-Quyết`
+Toán
+Toán
+Văn
+Văn
+Toán
+Toán
+Văn
 
 
 
@@ -38,9 +38,9 @@ Văn-Quyết`
 
 
 
-Toán-Việt
-Toán-Việt
-SHL-Trang
+Toán
+Toán
+SHL
 
 
 
@@ -48,9 +48,9 @@ SHL-Trang
 
 
 
-Văn-Quyết`
-Văn-Quyết`
-Toán-Việt
+Văn
+Văn
+Toán
 
 
 

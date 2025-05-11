@@ -1,6 +1,6 @@
-Toán-TrúcT
-Toán-TrúcT
-Văn-Nhung
+Toán
+Toán
+Văn
 
 
 
@@ -14,13 +14,13 @@ Văn-Nhung
 
 
 
-Toán-TrúcT
-Toán-TrúcT
-Văn-Nhung
-Văn-Nhung
-Văn-Nhung
-Văn-Nhung
-Toán-TrúcT
+Toán
+Toán
+Văn
+Văn
+Văn
+Văn
+Toán
 
 
 
@@ -38,9 +38,9 @@ Toán-TrúcT
 
 
 
-Toán-TrúcT
-Văn-Nhung
-Văn-Nhung
+Toán
+Văn
+Văn
 
 
 
@@ -48,9 +48,9 @@ Văn-Nhung
 
 
 
-Toán-TrúcT
-Toán-TrúcT
-SHL-Định Đ
+Toán
+Toán
+SHL
 
 
 

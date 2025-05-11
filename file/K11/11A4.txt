@@ -1,53 +1,53 @@
-Chào cờ-Hiếu Qp
-Sử-Yến
-Văn-Quyết`
-Toán-Trầm
-Lí-Tuân
+Chào cờ
+Sử
+Văn
+Toán
+Lí
 
 
 
 
 
-TD-Đức
-Lí-Tuân
-Lí-Tuân
-CNCN-Huy CN
-Toán-Trầm
+TD
+Lí
+Lí
+CNCN
+Toán
 
 
 
 
 
-AV-Biền
-AV-Biền
-Hóa-Thu H
-Toán-Trầm
-Toán-Trầm
+AV
+AV
+Hóa
+Toán
+Toán
 
 
 
 
 
-Văn-Quyết`
-Văn-Quyết`
-AV-Biền
-Tin-Chi
-Hóa-Thu H
+Văn
+Văn
+AV
+Tin
+Hóa
 
 
 
 
 
-TD-Đức
-Tin-Chi
-CNCN-Huy CN
-CĐ Hóa-Linh
-TN-HN-Hiếu Qp
+TD
+Tin
+CNCN
+CĐ Hóa
+TN-HN
 P21
 
 
-TN-HN-Hiếu Qp
-TN-HN-Hiếu Qp
+TN-HN
+TN-HN
 
 
 
