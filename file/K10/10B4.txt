@@ -35,8 +35,8 @@ CNNN
 
 Sử
 Sử
-AV
-CNNN
+SAV
+CNNN 
 Toán
 
 
@@ -48,7 +48,6 @@ Toán
 CĐ Sử
 Sinh
 Văn
-
 
 
 
