@@ -2,7 +2,7 @@ Chào cờ
 Sử
 Văn
 Toán
-Lí
+Hóa
 
 
 
@@ -18,36 +18,35 @@ Toán
 
 
 
-AV
-AV
-Hóa
-Toán
-Toán
-
-
-
-
-
-Văn
-Văn
-AV
+Tin
 Tin
 Hóa
+Toán
+Toán
 
+
+
+
+
+Văn
+Văn
+Lí
 
 
 
 
 TD
-Tin
-CNCN
+TN-HN
+TN-HN
 CĐ Hóa
+AV
+CNCN
 TN-HN
-P21
 
 
-TN-HN
-TN-HN
+
+
+
 
 
 

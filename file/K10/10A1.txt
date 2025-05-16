@@ -12,11 +12,11 @@ TD
 CĐ Toán
 
 
-P19
+
 Tin
 Sinh
-Lí
 Sử
+Lí
 Văn
 
 
@@ -28,25 +28,25 @@ Văn
 Toán
 Tin
 AV
-TD
-TD
+
+
 
 
 
 Lí
+AV
 Sử
+TN-HN
+TN-HN
+
+
+
+
+
+Sinh
+Sinh
+AV
 Hóa
-TN-HN
-TN-HN
-
-
-
-
-
-Sinh
-Sinh
-AV
-AV
 TN-HN
 
 

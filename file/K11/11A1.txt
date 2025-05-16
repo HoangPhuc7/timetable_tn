@@ -1,25 +1,25 @@
 Chào cờ
-Hóa
-Sử
-Văn
-Văn
-
-
-
-
-
 Lí
-TD
+AV
+Văn
+Văn
+
+
+
+
+
+Hóa
 Hóa
 Toán
 Toán
-P19
+Toán
+
 
 
 TN-HN
 TN-HN
-TD
 Văn
+TD
 Tin
 CĐ Toán
 Toán
@@ -28,11 +28,11 @@ Toán
 
 
 
-AV
-AV
 Sinh
 Sinh
+Sử
 Tin
+
 
 
 

@@ -6,16 +6,16 @@
 Lí
 Lí
 Hóa
-AV
+Sử
 Chào cờ
 
-CNCN
-CNCN
 
-P20
+
+
+
 Văn
 TD
-Sử
+AV
 Toán
 Toán
 
@@ -42,10 +42,10 @@ TD
 TN-HN
 TN-HN
 
-P18
+
 Sinh
-CNCN
 Hóa
+CNCN
 Sử
 TN-HN
 

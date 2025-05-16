@@ -12,10 +12,10 @@ TN-HN
 TN-HN
 TN-HN
 
-PBM TO
+
 Sinh
 TD
-Sinh
+TD
 Địa
 Địa
 
@@ -24,21 +24,21 @@ Sinh
 
 
 GDKT-PL
-CNNN 
-AV
-AV
-CNNN 
-
-
-
-
-
-Sử
-AV
-Sử
-Toán
 Địa
-TD
+AV
+AV
+CNNN 
+
+
+
+
+
+Sử
+Sử
+AV
+CNNN
+Toán
+
 
 
 
@@ -46,6 +46,7 @@ TD
 Toán
 Toán
 CĐ Sử
+Sinh
 Văn
 
 

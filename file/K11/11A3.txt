@@ -9,10 +9,10 @@ CNCN
 
 
 Sử
-Sinh
-TD
 Toán
-Sinh
+TD
+Lí
+Lí
 
 
 
@@ -38,12 +38,12 @@ AV
 
 
 
-Lí
-Lí
+Sinh
+Sinh
 Văn
 Văn
 TN-HN
-P20
+
 
 
 TN-HN

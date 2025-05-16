@@ -1,11 +1,11 @@
-TD
-TN-HN
-TN-HN
 
-P19
-GDKT-PL
-Sử
+
+
+
+
 AV
+Sử
+GDKT-PL
 Toán
 Chào cờ
 
@@ -38,9 +38,9 @@ Toán
 Toán
 Văn
 Văn
-
-
-
+TN-HN
+TN-HN
+TD
 
 
 AV

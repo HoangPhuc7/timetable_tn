@@ -8,19 +8,19 @@ Văn
 
 
 
-TD
+CNNN
+CNNN
 Toán
-Toán
-Sinh
 GDKT-PL
-P22
+
+
 
 
 TN-HN
 TN-HN
 GDKT-PL
 Toán
-Địa
+Toán
 Văn
 Văn
 
@@ -31,15 +31,15 @@ Văn
 CĐ Sử
 TD
 Sinh
+Địa
+Sinh
+
+
+
+
+
 AV
-AV
-
-
-
-
-
-CNNN
-CNNN
+TD
 AV
 Sử
 TN-HN

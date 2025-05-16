@@ -19,10 +19,10 @@ Văn
 Tin
 Lí
 
-Toán
+CĐ Toán
 TD
 
-P20
+
 CNCN
 Tin
 Sử
@@ -39,15 +39,15 @@ Hóa
 Lí
 Lí
 
-TD
-TD
+
+
 
 
 CNCN
 Sử
-AV
-AV
 TN-HN
+
+
 
 
 

@@ -3,21 +3,21 @@
 
 
 
+Lí
+Lí
 AV
 AV
-CNCN
-Văn
 Chào cờ
 CĐ Toán
 TD
 
 
-P19
+
 Toán
+Văn
 Sử
 Tin
 Hóa
-CNCN
 
 
 
@@ -26,8 +26,8 @@ CNCN
 Văn
 Văn
 Sử
-Lí
-Lí
+CNCN
+CNCN
 
 
 
@@ -37,15 +37,15 @@ Hóa
 Toán
 Toán
 TD
-AV
 
-TN-HN
-TN-HN
 
-P19
+
+
+
+
 Hóa
-Tin
 Lí
+Tin
 TN-HN
 TN-HN
 

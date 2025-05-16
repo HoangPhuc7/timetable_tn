@@ -1,16 +1,16 @@
 Chào cờ
 Tin
 Sử
-Lí
-Sinh
+Hóa
+
 
 
 
 
 
 TD
-Văn
-Văn
+Toán
+Toán
 Lí
 CĐ Toán
 
@@ -31,19 +31,19 @@ Hóa
 Sinh
 Sinh
 AV
-Hóa
+Lí
 Toán
 
 
 
 
 
-TD
-Toán
-Toán
+Sinh
 Tin
+Văn
+Văn
 TN-HN
-P19
+
 
 
 TN-HN

@@ -86,34 +86,36 @@ def display_timetable(timetable):
 		table_data[day] = timetable[i]
 
 	df = pd.DataFrame(table_data)
-	st.dataframe(df)
+	st.table(df)
 
 
-col1, col2, col3 = st.columns(3)
 
-with col1:
-    selected_class_basic = st.selectbox("Lớp / Ôn TN", classes, key="basic_class")
-
-with col2:
-    selected_class_TN_1 = st.selectbox("Môn TN 1", TN, key="tn1")
-
-with col3:
-    selected_class_TN_2 = st.selectbox("Môn TN 2", TN, key="tn2")
+def TKB_Normal(file_path_class_basic):
+	lines_timetable = get_data(file_path_class_basic)
+	timetable = read_timetable(lines_timetable)
+	if timetable:
+		st.subheader(f"{selected_class_basic}")
+		display_timetable(timetable)
 
 
+st.title("Ngày áp dụng: 19/05/2025")
+selected_class_basic = st.selectbox("Chọn lớp", classes, key="basic_class")
+text_final = "Lấy TKB"
+if selected_class_basic.startswith("12"):
+	selected_class_TN_1 = st.selectbox("Chọn môn TN 1", TN, key="tn1")
+	selected_class_TN_2 = st.selectbox("Chọn môn TN 2", TN, key="tn2")
+	if selected_class_TN_1 != "Chọn" and selected_class_TN_2 != "Chọn":
+		text_final = "Gộp TKB"
+ 
 file_path_class_basic = f"./file/K{selected_class_basic[:2]}/{selected_class_basic}.txt"
-if st.button("Lấy/Gộp TKB", key="final_tkb"):
+
+if st.button(text_final, key="final_tkb"):
 	if selected_class_basic != "Chọn":
-		if selected_class_TN_1 == "Chọn" and selected_class_TN_2 == "Chọn":
-			lines_timetable = get_data(file_path_class_basic)
-			timetable = read_timetable(lines_timetable)
-			if timetable:
-				st.subheader(f"{selected_class_basic}")
-				display_timetable(timetable)
-		
+		if selected_class_basic[:2] != "12":
+			TKB_Normal(file_path_class_basic)
 		else:
-			if selected_class_basic[:2] != "12":
-				st.warning("Chỉ có lớp 12 mới có môn thi tốt nghiệp!.")
+			if selected_class_TN_1 == "Chọn" and selected_class_TN_2 == "Chọn":
+				TKB_Normal(file_path_class_basic)
 			else:
 				if (selected_class_TN_1 == "Chọn" and selected_class_TN_2 != "Chọn") or (selected_class_TN_1 != "Chọn" and selected_class_TN_2 == "Chọn"):
 					st.warning("Vui lòng chọn đầy đủ 2 môn ôn tốt nghiệp.")

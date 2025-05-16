@@ -4,23 +4,23 @@
 
 
 GDKT-PL
-AV
 Văn
 Văn
+TN-HN
 Chào cờ
-TN-HN
-TN-HN
-TD
 
-P21
+
+
+
+
 Địa
 Địa
 TD
-CNNN 
-Sử
+Sử 
 
-
-
+TN-HN
+TN-HN
+GDKT-PL
 
 
 CNNN 
@@ -34,10 +34,10 @@ CĐ Sử
 
 
 Sinh
+TD
 Toán
 Toán
-AV
-AV
+CNCN
 
 
 
@@ -46,8 +46,8 @@ AV
 Sử
 Địa
 Sinh
-GDKT-PL
-TN-HN
+AV
+AV
 
 
 

@@ -10,17 +10,17 @@ Văn
 
 GDKT-PL
 GDKT-PL
-Sinh
-Văn
-Văn
-PBM TO
+TD
+AV
+AV
+
 
 
 TN-HN
 TN-HN
+CNNN
 CNNN
 Toán
-AV
 Địa
 Địa
 
@@ -38,10 +38,10 @@ Sử
 
 
 
+Văn
+Văn
 AV
-AV
-CNNN
-TD
+Sinh
 TN-HN
 
 

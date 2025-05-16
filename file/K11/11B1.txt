@@ -1,26 +1,26 @@
 Chào cờ
 Văn
-AV
 Toán
 Toán
-
-
-
-
-
-Lí
-Lí
-TD
-GDKT-PL
 Tin
-P21
+
+
+
+
+
+Lí
+Lí
+GDKT-PL
+CĐ Toán
+
+
 TN-HN
 TN-HN
 TN-HN
 
 Văn
+TD
 GDKT-PL
-CĐ Toán
 Địa
 
 
@@ -30,8 +30,8 @@ CĐ Toán
 
 Lí
 Sử
-TD
 Toán
+TD
 Địa
 
 
@@ -40,9 +40,9 @@ Toán
 
 Tin
 AV
-AV
 Văn
 Văn
+
 
 
 

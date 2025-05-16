@@ -1,6 +1,6 @@
 
-TD
-TD
+
+
 
 
 Sử
@@ -8,8 +8,8 @@ Văn
 TN-HN
 TN-HN
 Chào cờ
-
-
+TD
+TD
 
 
 
@@ -37,17 +37,16 @@ Sinh
 Sinh
 Lí
 Hóa
-Hóa
-CĐ Toán
-CĐ Toán
-
-
-P17
-Lí
 AV
+
+
+
+
+
+Lí
 Toán
 Hóa
-TN-HN
+Hóa
 
 
 
