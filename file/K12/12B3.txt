@@ -28,6 +28,7 @@ Văn
 
 
 
+Toán
 
 
 
@@ -37,10 +38,11 @@ Văn
 
 
 
-
+Toán
+Toán
+Văn
+Văn
 SHL
-Toán
-Toán
 
 
 
@@ -48,9 +50,7 @@ Toán
 
 
 
-Văn
-Văn
-Toán
+
 
 
 

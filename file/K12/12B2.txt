@@ -8,19 +8,9 @@ Toán
 
 
 
-
-
-
-
-
-
-
-
-
-
 Toán
-Văn
-Văn
+
+
 
 
 
@@ -28,6 +18,16 @@ Văn
 Văn
 Toán
 Toán
+Toán
+Văn
+Văn
+
+
+
+
+
+
+
 
 
 
@@ -40,6 +40,8 @@ Toán
 
 Toán
 Toán
+Văn
+Văn
 SHL
 
 
@@ -48,9 +50,7 @@ SHL
 
 
 
-Văn
-Văn
-Toán
+
 
 
 
