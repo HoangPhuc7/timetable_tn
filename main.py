@@ -98,7 +98,7 @@ def TKB_Normal(file_path_class_basic):
 		display_timetable(timetable)
 
 
-st.title("Ngày áp dụng: 19/05/2025")
+st.title("Ngày áp dụng: 26/05/2025")
 selected_class_basic = st.selectbox("Chọn lớp", classes, key="basic_class")
 text_final = "Lấy TKB"
 if selected_class_basic.startswith("12"):
