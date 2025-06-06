@@ -4,8 +4,8 @@
 
 
 
-GDKT-PL
-GDKT-PL
+KT-PL
+KT-PL
 
 
 
@@ -21,8 +21,8 @@ GDKT-PL
 
 
 
-GDKT-PL
-GDKT-PL
+KT-PL
+KT-PL
 
 
 
@@ -36,8 +36,8 @@ GDKT-PL
 
 
 
-GDKT-PL
-GDKT-PL
+KT-PL
+KT-PL
 
 
 

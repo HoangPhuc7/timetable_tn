@@ -2,8 +2,9 @@
 import streamlit as st
 import pandas as pd
 
-classes = ['Chọn', '10A1', '10A2', '10A3', '10A4', '10A5', '10A6', '10B1', '10B2', '10B3', '10B4', '11A1', '11A2', '11A3', '11A4', '11A5', '11B1', '11B2', '11B3', '12A1', '12A2', '12A3', '12A4', '12B1', '12B2', '12B3', '12B4', 'TN AV 1 (H.Thắm)', 'TN AV 2 (Cẩm)', 'TN AV 3 (P.Thắm)', 'TN HH 1 (B.Hạnh)', 'TN HH 2 (Thu H)', 'TN HH 3 (N.Hạnh)', 'TN HH 4 (Cúc H)', 'TN KTPL (Trong)', 'TN LS 1 (Hiểu)', 'TN LS 2 (Hoa)', 'TN LS 3 (Trang)', 'TN SH 1 (Anh)', 'TN SH 2 (Điền)', 'TN VL 1 (Hiếu)', 'TN VL 2 (Định)', 'TN VL 3 (Kha)', 'TN ĐL 1 (Định Đ)', 'TN ĐL 2 (Thu Đ)', 'TN ĐL 3 (Định Đ)', 'TN ĐL 4 (Thu Đ)']
-TN = ['Chọn', 'TN AV 1 (H.Thắm)', 'TN AV 2 (Cẩm)', 'TN AV 3 (P.Thắm)', 'TN HH 1 (B.Hạnh)', 'TN HH 2 (Thu H)', 'TN HH 3 (N.Hạnh)', 'TN HH 4 (Cúc H)', 'TN KTPL (Trong)', 'TN LS 1 (Hiểu)', 'TN LS 2 (Hoa)', 'TN LS 3 (Trang)', 'TN SH 1 (Anh)', 'TN SH 2 (Điền)', 'TN VL 1 (Hiếu)', 'TN VL 2 (Định)', 'TN VL 3 (Kha)', 'TN ĐL 1 (Định Đ)', 'TN ĐL 2 (Thu Đ)', 'TN ĐL 3 (Định Đ)', 'TN ĐL 4 (Thu Đ)']
+classes = ['Chọn', '10A1', '10A2', '10A3', '10A4', '10A5', '10A6', '10B1', '10B2', '10B3', '10B4', '11A1', '11A2', '11A3', '11A4', '11A5', '11B1', '11B2', '11B3', '12A1', '12A2', '12A3', '12A4', '12B1', '12B2', '12B3', '12B4', 'TN AV 1 (H.Thắm)', 'TN AV 2 (Cẩm)', 'TN AV 3 (P.Thắm)', 'TN HH 1 (B.Hạnh)', 'TN HH 2 (Thu H)', 'TN HH 3 (N.Hạnh)', 'TN HH 4 (Cúc H)', 'TN KTPL (Trong)', 'TN LS 1 (Hiểu)', 'TN LS 2 (Hoa)', 'TN LS 3 (Trang)', 'TN SH 1 (Anh)', 'TN SH 2 (Điền)', 'TN VL 1 (Hiếu)', 'TN VL 2 (Định)', 'TN VL 3 (Kha)', 'TN ĐL 1 (Định Đ)', 'TN ĐL 2 (Thu Đ)', 'TN ĐL 3 (Định Đ)', 'TN ĐL 4 (Thu Đ)', 'TN Toán 1 (Duyên)', 'TN Toán 2 (Trúc)', 'TN Toán 3 (Quang)', 'TN Toán 4 (Trầm)']
+TN = ['Chọn', 'TN AV 1 (H.Thắm)', 'TN AV 2 (Cẩm)', 'TN AV 3 (P.Thắm)', 'TN HH 1 (B.Hạnh)', 'TN HH 2 (Thu H)', 'TN HH 3 (N.Hạnh)', 'TN HH 4 (Cúc H)', 'TN KTPL (Trong)', 'TN LS 1 (Hiểu)', 'TN LS 2 (Hoa)', 'TN LS 3 (Trang)', 'TN SH 1 (Anh)', 'TN SH 2 (Điền)', 'TN VL 1 (Hiếu)', 'TN VL 2 (Định)', 'TN VL 3 (Kha)', 'TN ĐL 1 (Định Đ)', 'TN ĐL 2 (Thu Đ)', 'TN ĐL 3 (Định Đ)', 'TN ĐL 4 (Thu Đ)', 'TN Toán 1 (Duyên)', 'TN Toán 2 (Trúc)', 'TN Toán 3 (Quang)', 'TN Toán 4 (Trầm)']
+TN_extend = ['Chọn', 'TN Toán 1 (Duyên)', 'TN Toán 2 (Trúc)', 'TN Toán 3 (Quang)', 'TN Toán 4 (Trầm)']
 
 days = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7']
 periods = ['S1', 'S2', 'S3', 'S4', 'S5',
@@ -17,7 +18,7 @@ def get_data(file_name):
 
 
 
-def combine_files(class_file, TN_1, TN_2):
+def combine_files(class_file, TN_1, TN_2, TN_extend):
 	with open(class_file, 'r', encoding='utf-8') as f:
 		class_lines = [line.strip() for line in f.readlines()]
 	
@@ -51,10 +52,26 @@ def combine_files(class_file, TN_1, TN_2):
 			TN_2_lines[i] = ""
 		
 		if class_lines[i] == "":
-			if TN_1_lines[i] != "":
+			if TN_1_lines[i] != "" and TN_2_lines[i] == "":
 				class_lines[i] = TN_1_lines[i]
-			elif TN_2_lines[i] != "":
+			elif TN_1_lines[i] == "" and TN_2_lines[i] != "":
 				class_lines[i] = TN_2_lines[i]
+			elif TN_1_lines[i] == "" and TN_2_lines[i] == "":
+				class_lines[i] = ""
+			else:
+				class_lines[i] = TN_1_lines[i] + "  +  " + TN_2_lines[i]
+	
+	if TN_extend != "":
+		with open(TN_extend, 'r', encoding='utf-8') as f:
+			TN_extend_lines = [line.strip() for line in f.readlines()]
+		
+		while len(TN_extend_lines) < 60:
+			TN_extend_lines.append("")
+		
+		for i in range(60):
+			if class_lines[i] == "":
+				if TN_extend_lines[i] != "":
+					class_lines[i] = TN_extend_lines[i]
 	
 	return class_lines
 
@@ -98,12 +115,13 @@ def TKB_Normal(file_path_class_basic):
 		display_timetable(timetable)
 
 
-st.title("Ngày áp dụng: 26/05/2025")
+st.title("Ngày áp dụng: 09/06/2025")
 selected_class_basic = st.selectbox("Chọn lớp", classes, key="basic_class")
 text_final = "Lấy TKB"
 if selected_class_basic.startswith("12"):
 	selected_class_TN_1 = st.selectbox("Chọn môn TN 1", TN, key="tn1")
 	selected_class_TN_2 = st.selectbox("Chọn môn TN 2", TN, key="tn2")
+	selected_class_TN_3 = st.selectbox("Chọn môn TN mở rộng (Nếu có)", TN_extend, key="tn3")
 	if selected_class_TN_1 != "Chọn" and selected_class_TN_2 != "Chọn":
 		text_final = "Gộp TKB"
  
@@ -122,10 +140,15 @@ if st.button(text_final, key="final_tkb"):
 				else:
 					file_path_class_TN_1 = f"./file/K{selected_class_TN_2[:2]}/{selected_class_TN_1}.txt"
 					file_path_class_TN_2 = f"./file/K{selected_class_TN_2[:2]}/{selected_class_TN_2}.txt"
-					lines_timetable = combine_files(file_path_class_basic, file_path_class_TN_1, file_path_class_TN_2)
+					file_path_class_TN_3 = f"./file/K{selected_class_TN_2[:2]}/{selected_class_TN_3}.txt"
+					if selected_class_TN_3 == "Chọn":
+						file_path_class_TN_3 = ""
+					lines_timetable = combine_files(file_path_class_basic, file_path_class_TN_1, file_path_class_TN_2, file_path_class_TN_3)
 					timetable = read_timetable(lines_timetable)
 					if timetable:
-						st.subheader(f"{selected_class_basic} - {selected_class_TN_1} - {selected_class_TN_2}")
+						if selected_class_TN_3 != "Chọn":
+							selected_class_TN_3 = " - " + selected_class_TN_3
+						st.subheader(f"{selected_class_basic} - {selected_class_TN_1} - {selected_class_TN_2}{selected_class_TN_3}")
 						display_timetable(timetable)
 	else:
 		st.warning("Vui lòng chọn lớp.")
