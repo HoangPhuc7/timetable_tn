@@ -1,0 +1,115 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f0f2f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #555;
+}
+
+select {
+    padding: 0.75em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 0.8em;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message-area {
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+#timetable-container {
+    margin-top: 2em;
+}
+
+#timetable-container h3 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #34495e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.6em;
+    text-align: center;
+    min-height: 40px;
+}
+
+th {
+    background-color: #e9ecef;
+}
+
+td:first-child {
+    font-weight: bold;
+    background-color: #f8f9fa;
+}
+
+.hidden {
+    display: none;
+}

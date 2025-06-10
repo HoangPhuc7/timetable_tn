@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời Khóa Biểu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ngày áp dụng: 09/06/2025</h1>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="class-select">Chọn lớp</label>
+                <select id="class-select"></select>
+            </div>
+
+            <div id="tn-controls" class="control-group hidden">
+                <label for="tn1-select">Chọn môn TN 1</label>
+                <select id="tn1-select"></select>
+
+                <label for="tn2-select">Chọn môn TN 2</label>
+                <select id="tn2-select"></select>
+
+                <label for="tn3-select">Chọn môn TN mở rộng (Nếu có)</label>
+                <select id="tn3-select"></select>
+            </div>
+        </div>
+
+        <button id="submit-button">Lấy TKB</button>
+
+        <div id="message-area"></div>
+        <div id="timetable-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
